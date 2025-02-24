@@ -18,7 +18,7 @@ A Twilio plugin for ElizaOS that enables SMS and voice call capabilities.
 ## Installation
 
 ```bash
-pnpm add @elizaos/plugin-twilio
+pnpm add @elizaos-plugins/plugin-twilio
 ```
 
 ## Configuration
@@ -27,7 +27,7 @@ pnpm add @elizaos/plugin-twilio
 ```json
 {
     "name": "your_character",
-    "plugins": ["@elizaos/plugin-twilio"],
+    "plugins": ["@elizaos-plugins/plugin-twilio"],
     "settings": {
         "actions": {
             "enabled": ["sms", "call"]
